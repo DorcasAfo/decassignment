@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <title>Table</title>
+        <style>
+        table,th,td {
+        border:1px solid black; 
+        border-collapse: collapse;
+        padding: 8px;
+        
+        }
+         
+        table {
+         width: 80%;
+         text-align: center;
+
+        }
+        thead{
+           height: 4px;
+        }
+        
+        tbody{
+         height: 30px;
+        }
+ 
+     
+        tbody tr:nth-child(odd) {
+          background-color: #232390;
+        }
+
+       tbody tr:nth-child(even) {
+         background-color: #8181dc;
+        }
+
+       tbody tr:nth-child(odd):hover {
+        background-color: #f30a0a;
+        }
+        </style>
+</head>
+<body>
+    <h2>Creating a Zebra-Striped table</h2>
+    <table style="text-align: center;">
+        <thead style="color: white; background-color: black;">
+
+        <tr>
+            <th>S/N</th>
+            <th>Flour</th>
+            <th>Sugar</th>
+        
+        </tr>
+        </thead>
+        
+        <tbody>
+        <tr>
+            <td> 1 </td>
+            <td> 200 </td>
+            <td> 350 </td>
+           
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>200</td>
+            <td>300</td>
+
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>190</td>
+            <td>200</td>
+
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>900</td>
+            <td>700</td>
+           
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td>700</td>
+            <td>800</td>
+           
+        </tr>
+        </tbody>
+        </table>
+        
+           
+</body>
+</html>
